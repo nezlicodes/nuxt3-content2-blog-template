@@ -1,12 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 - Nuxt Content 2 blog template
 
-Nuxt 3 starter template repo with pages, components, layouts & tailwind setup.
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 3  blog starter template using nuxt-content and tailwind css.
 
 ## Setup
 
 Make sure to install the dependencies:
+
+<img src="assets/home.png" />
+<img src="assets/post.png" />
 
 ```bash
 # yarn
