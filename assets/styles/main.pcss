@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src:  url(~/assets/fonts/Inter-VariableFont_slnt-wght.ttf) format("truetype");
+  font-weight: normal;
+}
+
+:root {
+  --primary-color: #1e1f22;
+  --secondary-color: #ffffff;
+  --active-color: hsl(358, 70%, 52%);
+  --meta-text-color: #666666;
+}
+
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+body,
+html {
+  font-family: "Inter", sans-serif;
+}
+
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+.primary-link{
+  color: var(--primary-color);
+}
+
+.primary-link:hover{
+  color: var(--active-color);
+  text-decoration: underline;
+}
+/* buttons */
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.code {
+  background: rgb(247, 246, 243);
+  color: #333;
+  padding: 8px 12px;
+  margin-block: 1em;
+}
+
+.prose h2{
+  @apply font-bold text-gray-600 text-lg mb-1; 
+}
